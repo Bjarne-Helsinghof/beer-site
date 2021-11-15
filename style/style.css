@@ -3,6 +3,8 @@
   padding: 0px;
 }
 
+
+
 body {
   background: #ECBE29;
   background-image: url(specialøl_background.png);
@@ -77,9 +79,10 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 1000px;
+  height: 500px;
   position: relative;
-  margin: auto;
+  margin: 0px auto;
 }
 
 /* Hide the images by default */
@@ -87,7 +90,8 @@ body {
   display: none;
   align-content: center;
   justify-content: center;
-  width: fit-content;
+  width: 500px;
+  height: 500px;
 }
 
 /* Next & previous buttons */
@@ -96,6 +100,7 @@ body {
   cursor: pointer;
   position: absolute;
   top: 50%;
+  right: 50%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
