@@ -1,0 +1,31 @@
+table {
+    border:inherit 1px solid blue;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: yellow;
+    color: brown;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: aqua;
+    color: black;
+  }
+  
+  tr:hover {
+    color: orange;
+  
+  }
+  
+  th {
+    color: red;
+    background-color: black;
+  }
+  
