@@ -7,21 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>journeyman brewery</title>
     <link rel="stylesheet" href="C:\Users\Bruger\Desktop\design and devolpment\beer site\style\style.css">
+
 </head>
 
 <body>
     <header>
-        <div class="header">
+        <class="header">
             <div class="topnav">
                 <a class="active" href="#home">Home</a>
+                <a href="landingpage.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
                 <a href="new_products.html">New Products</a>
-                <input type="text" placeholder="Search..">
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search..">
+                        <button type="submit"> <i class="fa fa-search"></i> </button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\specialøl_background.png"
-            alt="background" height="100%" width="100%">
+            <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\specialøl_background.png"
+                alt="background" height="100%" width="100%">
     </header>
 
 
@@ -40,30 +46,20 @@
             <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\grimbergen-specialol.png">
         </div>
 
-        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-    </div>
-
-    <br>
-    <br>
-
-
-    <p>Slideshow 2:</p>
-    <div class="slideshow-container">
-        <div class="mySlides2">
+        <div class="mySlides1">
             <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\einstokpaleale.jpg">
         </div>
 
-        <div class="mySlides2">
+        <div class="mySlides1">
             <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\baladinisaacale.jpg">
         </div>
 
-        <div class="mySlides2">
+        <div class="mySlides1">
             <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\svanekemørkguld.jpg">
         </div>
 
-        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
     </div>
 
     <script>
