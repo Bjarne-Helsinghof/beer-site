@@ -8,6 +8,8 @@
     <title>journeyman brewery</title>
     <link rel="stylesheet" href="C:\Users\Bruger\Desktop\design and devolpment\beer site\style\style.css">
     <link rel="stylesheet" href="C:\Users\Bruger\Desktop\design and devolpment\beer site\style\Contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,18 +20,19 @@
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
                 <a href="new_products.html">New Products</a>
-                <input type="text" placeholder="Search..">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..">
+                </div>
             </div>
-        </div>
-        <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\specialøl_background.png"
-            alt="background" height="100%" width="100%">
+            <img src="C:\Users\Bruger\Desktop\design and devolpment\beer site\images\specialøl_background.png"
+                alt="background" height="100%" width="100%">
     </header>
 
     <body>
         <div class="container">
             <div style="text-align:center">
                 <h2>Contact Us</h2>
-                <p>Swing by for a cup of coffee, or leave us a message:</p>
+                <p>Swing by for a mug of ale, or leave us a message:</p>
             </div>
             <div class="row">
                 <div class="column">
@@ -43,9 +46,26 @@
                         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                         <label for="country">Country</label>
                         <select id="country" name="country">
-                            <option value="australia">Australia</option>
-                            <option value="canada">Canada</option>
-                            <option value="usa">USA</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Brazil">Brazil</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="France">France</option>
+                            <option value="Great Britain">Great Britain</option>
+                            <option value="Ireland">Ireland</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Mexico">Mexico</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Oman">Oman</option>
+                            <option value="Poland">Poland</option>
+                            <option value="Qator">Qator</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Taiwan">Taiwan</option>
+                            <option value="Usa">USA</option>
+                            <option value="Yemen">Yemen</option>
                         </select>
                         <label for="subject">Subject</label>
                         <textarea id="subject" name="subject" placeholder="Write something.."
