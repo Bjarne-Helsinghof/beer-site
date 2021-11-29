@@ -8,14 +8,12 @@
 body {
   background: #ECBE29;
   background-image: url(specialøl_background.png);
-
 }
 
 .header {
-  padding: 50px;
+  padding: 25px;
   text-align: center;
   background: #32232C;
-  height: auto;
 }
 
 .topnav {
@@ -65,7 +63,7 @@ body {
 .topnav .search-container button {
   float: right;
   padding: 6px 10px;
-  margin-top: 8px;
+  margin-top: 0px;
   margin-right: 16px;
   background: #ddd;
   color: white;
@@ -92,7 +90,7 @@ display: table;
     display: block;
     text-align: left;
     width: 100%;
-    margin: 0;
+    margin: 100px;
     padding: 14px;
   }
 
@@ -191,9 +189,9 @@ display: table;
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration:0.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 
